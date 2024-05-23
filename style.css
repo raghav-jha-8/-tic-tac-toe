@@ -184,7 +184,7 @@ table {
   padding-right: 10px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .modal-content {
     margin: 30% auto;
     font-size: 1.8em; /* Adjust font size for better readability */
@@ -216,7 +216,7 @@ table {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .modal-content {
     margin: 30% auto;
     font-size: 1.5em; /* Further adjust font size for smaller screens */
