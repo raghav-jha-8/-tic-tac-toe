@@ -108,7 +108,7 @@ table {
 }
 #footer {
   text-align: center;
-  margin-top: 6.3rem;
+  margin-top: 4.3rem;
   font-size: 1.5em;
 }
 #footer span {
@@ -216,6 +216,38 @@ table {
   }
 }
 
+@media (max-width: 768px) {
+  .modal-content {
+    margin: 30% auto;
+    font-size: 1.8em; /* Adjust font size for better readability */
+  }
+
+  .modal-content .options {
+    display: flex;
+    flex-wrap: wrap; /* Ensure the items wrap */
+    justify-content: center; /* Center the wrapped items */
+    gap: 10px; /* Add spacing between lines */
+  }
+
+  .modal-content .options > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px; /* Add spacing between the wrapped elements */
+  }
+
+  .modal-content .options > h3, 
+  .modal-content .options > label {
+    margin: 0 10px; /* Space out the elements horizontally */
+    padding: 0;
+  }
+
+  .modal-content button {
+    margin: 5px; /* Add margin to create space between buttons */
+  }
+}
+
 @media (max-width: 425px) {
   .modal-content {
     margin: 30% auto;
@@ -245,5 +277,37 @@ table {
 
   .modal-content button {
     margin: 4px; /* Adjust button margin for smaller screens */
+  }
+}
+
+@media (max-width: 355px) {
+  .modal-content {
+    margin: 30% auto;
+    font-size: 1.2em; /* Further adjust font size for very small screens */
+  }
+
+  .modal-content .options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px; /* Further reduce gap for very small screens */
+  }
+
+  .modal-content .options > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 6px; /* Further reduce margin for very small screens */
+  }
+
+  .modal-content .options > h3, 
+  .modal-content .options > label {
+    margin: 0 6px; /* Further adjust margin for very small screens */
+    padding: 0;
+  }
+
+  .modal-content button {
+    margin: 2px; /* Further adjust button margin for very small screens */
   }
 }
